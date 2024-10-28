@@ -24,10 +24,11 @@ The AI Text Summarizer is a web application designed to condense lengthy texts i
 
 ## Getting Started
 1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Set up environment variables for API keys.
-4. Run the application using `npm start`.
-5. Use Postman to test the API endpoints.
+2. Navigate to inside the project folder on terminal, where I would hopefully see a package.json file
+3. Do an npm install for installing all the project dependencies
+4. Do an npm install -g nodemon for installing all the project dependencies
+5. Then node index.js to get the app running on local host
+6. The app is running on localhost:3000
 
 ## Conclusion
 The AI Text Summarizer is a powerful tool for anyone needing quick and accurate text summaries. By integrating cutting-edge NLP models and efficient HTTP request handling, this project ensures a seamless user experience.
