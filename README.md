@@ -1,1 +1,1 @@
-# ai-text-summarizer
+The AI Text Summarizer is a web application designed to condense lengthy texts into concise summaries using advanced natural language processing models. This project leverages the capabilities of Postman for API testing, Hugging Face for pre-trained language models, Axios for HTTP requests, and Express for building the server-side application.
