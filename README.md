@@ -22,13 +22,41 @@ The AI Text Summarizer is a web application designed to condense lengthy texts i
 3. **Text Summarization**: The Hugging Face model processes the text and returns a summary.
 4. **Display Summary**: The summarized text is displayed to the user.
 
-## Getting Started
-1. Clone the repository.
-2. Navigate to inside the project folder on terminal, where I would hopefully see a package.json file
-3. Do an `npm install` for installing all the project dependencies
-4. Do an `npm install -g nodemon` for installing all the project dependencies
-5. Then `node index.js` to get the app running on local host
-6. The app is running on localhost:3000
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ai-text-summarizer.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd ai-text-summarizer
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Install nodemon globally (optional):
+   ```bash
+   npm install -g nodemon
+   ```
+5. Run the application:
+   ```bash
+   node index.js
+   ```
+6. Access the app at: [http://localhost:3000](http://localhost:3000)
+
+## Usage/Examples
+To use the AI Text Summarizer:
+1. Open the application in your web browser.
+2. Input the text you want to summarize in the provided field.
+3. Click the 'Summarize' button.
+4. View the generated summary displayed on the screen.
+
+## Contributing
+We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Conclusion
 The AI Text Summarizer is a powerful tool for anyone needing quick and accurate text summaries. By integrating cutting-edge NLP models and efficient HTTP request handling, this project ensures a seamless user experience.
